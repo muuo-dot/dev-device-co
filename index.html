@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MumoTech Hub - Smart Digital Solutions & Trusted Laptop Sales</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: { primary: "#4f46e5", secondary: "#10b981" },
+            borderRadius: {
+              none: "0px",
+              sm: "4px",
+              DEFAULT: "8px",
+              md: "12px",
+              lg: "16px",
+              xl: "20px",
+              "2xl": "24px",
+              "3xl": "32px",
+              full: "9999px",
+              button: "8px",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+    <style>
+      :where([class^="ri-"])::before { content: "\f3c2"; }
+      body {
+      font-family: 'Inter', sans-serif;
+      }
+      .hero-section {
+      background-image: url('https://readdy.ai/api/search-image?query=modern%20tech%20workspace%20with%20laptops%20and%20digital%20devices%2C%20clean%20minimalist%20office%20setup%20with%20blue%20and%20white%20color%20scheme%2C%20soft%20lighting%2C%20professional%20environment%2C%20high%20quality%2C%20photorealistic%2C%20ultra%20detailed&width=1920&height=1080&seq=hero1&orientation=landscape');
+      background-size: cover;
+      background-position: center;
+      }
+      input:focus, textarea:focus {
+      outline: none;
+      border-color: #4f46e5;
+      }
+      input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <div class="flex items-center">
+            <a href="#" class="text-2xl font-['Pacifico'] text-primary"
+              >MumoTech Hub</a
+            >
+          </div>
+          <nav class="hidden md:flex space-x-8">
+            <a
+              href="#services"
+              class="text-gray-700 hover:text-primary font-medium"
+              >Services</a
+            >
+            <a
+              href="#laptops"
+              class="text-gray-700 hover:text-primary font-medium"
+              >Laptops</a
+            >
+            <a
+              href="#contact"
+              class="text-gray-700 hover:text-primary font-medium"
+              >Contact</a
+            >
+            <button
+              onclick="openQuoteForm()"
+              class="bg-primary text-white px-4 py-2 !rounded-button whitespace-nowrap"
+            >
+              Request a Quote
+            </button>
+          </nav>
+          <div class="md:hidden flex items-center">
+            <button
+              class="text-gray-700 w-10 h-10 flex items-center justify-center"
+            >
+              <i class="ri-menu-line ri-lg"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero-section relative">
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-gray-900/80 to-gray-900/30"
+      ></div>
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div
+          class="flex flex-col items-start justify-center min-h-[600px] py-20 w-full"
+        >
+          <div class="max-w-2xl">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+              Smart Digital Solutions & Trusted Laptop Sales
+            </h1>
+            <p class="text-xl text-gray-200 mb-8">
+              Web, app, and software development + quality laptops at fair
+              prices.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <button
+                onclick="openQuoteForm()"
+                class="bg-primary hover:bg-primary/90 text-white px-6 py-3 font-medium !rounded-button whitespace-nowrap"
+              >
+                Request a Quote
+              </button>
+              <button
+                class="bg-white hover:bg-gray-100 text-gray-900 px-6 py-3 font-medium !rounded-button whitespace-nowrap"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us Section -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">About Us</h2>
+          <div class="w-20 h-1 bg-primary mx-auto"></div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h3 class="text-2xl font-semibold text-gray-900 mb-6">
+              MumoTech Hub is based in Kisumu, offering:
+            </h3>
+            <div class="space-y-6">
+              <div class="flex items-start">
+                <div
+                  class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mr-4"
+                >
+                  <i class="ri-code-line ri-lg text-primary"></i>
+                </div>
+                <div>
+                  <h4 class="text-lg font-medium text-gray-900 mb-1">
+                    Website & app development
+                  </h4>
+                  <p class="text-gray-600">
+                    Custom websites and mobile applications tailored to your
+                    specific needs.
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <div
+                  class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mr-4"
+                >
+                  <i class="ri-settings-line ri-lg text-primary"></i>
+                </div>
+                <div>
+                  <h4 class="text-lg font-medium text-gray-900 mb-1">
+                    Software systems
+                  </h4>
+                  <p class="text-gray-600">
+                    Comprehensive software solutions for business management and
+                    operations.
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <div
+                  class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mr-4"
+                >
+                  <i class="ri-laptop-line ri-lg text-primary"></i>
+                </div>
+                <div>
+                  <h4 class="text-lg font-medium text-gray-900 mb-1">
+                    Laptop sales (new & refurbished)
+                  </h4>
+                  <p class="text-gray-600">
+                    Quality laptops from trusted brands at competitive prices.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-50 p-8 rounded-lg shadow-sm">
+            <div class="flex flex-col items-center text-center">
+              <div class="w-32 h-32 rounded-full overflow-hidden mb-6">
+                <img
+                  src="https://static.readdy.ai/image/d04246e1162deee90bfc42e90c3be400/3bfa6f6b181c1debe48cbab6cb8b16e7.jfif"
+                  alt="Shadrack Mumo"
+                  class="w-full h-full object-cover object-top"
+                />
+              </div>
+              <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                Shadrack Mumo
+              </h3>
+              <p class="text-gray-600 mb-6">Founder, ICT Tutor & Developer</p>
+              <div class="w-16 h-0.5 bg-primary mb-6"></div>
+              <p class="text-gray-700 italic">
+                "Our mission is to provide simple, reliable, and affordable
+                technology solutions that empower businesses and individuals in
+                Kenya."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Services</h2>
+          <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            We offer comprehensive technology solutions tailored to meet your
+            specific needs.
+          </p>
+        </div>
+        <div class="grid md:grid-cols-4 gap-8">
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden transition-transform hover:transform hover:scale-105"
+          >
+            <div class="h-48 bg-primary/5 flex items-center justify-center">
+              <div class="w-20 h-20 flex items-center justify-center">
+                <i class="ri-code-box-line ri-3x text-primary"></i>
+              </div>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-900 mb-3">
+                Coding Education
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Empowering young learners with practical coding skills through
+                hands-on training and projects.
+              </p>
+              <div class="bg-green-50 p-3 rounded-lg mb-4">
+                <p class="text-green-800 font-medium mb-1">
+                  Online Classes Available
+                </p>
+                <p class="text-green-700 text-sm">KSh 1,200 per session</p>
+              </div>
+              <ul class="text-gray-600 mb-6 space-y-2">
+                <li class="flex items-center">
+                  <i class="ri-check-line text-primary mr-2"></i>
+                  <span>Web Development (HTML, CSS, JS)</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="ri-check-line text-primary mr-2"></i>
+                  <span>Python & SQL for Backend</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="ri-check-line text-primary mr-2"></i>
+                  <span>C++ Game Development</span>
+                </li>
+              </ul>
+              <div class="flex items-center gap-3">
+                <a href="#" class="text-primary font-medium flex items-center">
+                  Learn more
+                  <i class="ri-arrow-right-line ml-1"></i>
+                </a>
+                <button
+                  onclick="openBookingForm()"
+                  class="bg-primary hover:bg-primary/90 text-white px-4 py-2 !rounded-button whitespace-nowrap flex items-center"
+                >
+                  <i class="ri-calendar-line mr-2"></i>
+                  Book Class
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden transition-transform hover:transform hover:scale-105"
+          >
+            <div class="h-48 bg-primary/5 flex items-center justify-center">
+              <div class="w-20 h-20 flex items-center justify-center">
+                <i class="ri-global-line ri-3x text-primary"></i>
+              </div>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-900 mb-3">Websites</h3>
+              <p class="text-gray-600 mb-4">
+                Professional websites for schools, businesses, NGOs, and
+                personal brands. Responsive design and SEO optimization
+                included.
+              </p>
+              <ul class="text-gray-600 mb-6 space-y-2">
+                <li class="flex items-center">
+                  <i class="ri-check-line text-primary mr-2"></i>
+                  <span>Custom design & development</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="ri-check-line text-primary mr-2"></i>
+                  <span>Content management systems</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="ri-check-line text-primary mr-2"></i>
+                  <span>E-commerce integration</span>
+                </li>
+              </ul>
+              <a href="#" class="text-primary font-medium flex items-center">
+                Learn more
+                <i class="ri-arrow-right-line ml-1"></i>
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden transition-transform hover:transform hover:scale-105"
+          >
+            <div class="h-48 bg-primary/5 flex items-center justify-center">
+              <div class="w-20 h-20 flex items-center justify-center">
+                <i class="ri-smartphone-line ri-3x text-primary"></i>
+              </div>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-900 mb-3">
+                Mobile Apps
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Native and cross-platform mobile applications for Android. From
+                learning tools to logistics management.
+              </p>
+              <ul class="text-gray-600 mb-6 space-y-2">
+                <li class="flex items-center">
+                  <i class="ri-check-line text-primary mr-2"></i>
+                  <span>Android development</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="ri-check-line text-primary mr-2"></i>
+                  <span>User-friendly interfaces</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="ri-check-line text-primary mr-2"></i>
+                  <span>Offline functionality</span>
+                </li>
+              </ul>
+              <a href="#" class="text-primary font-medium flex items-center">
+                Learn more
+                <i class="ri-arrow-right-line ml-1"></i>
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden transition-transform hover:transform hover:scale-105"
+          >
+            <div class="h-48 bg-primary/5 flex items-center justify-center">
+              <div class="w-20 h-20 flex items-center justify-center">
+                <i class="ri-database-2-line ri-3x text-primary"></i>
+              </div>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-900 mb-3">
+                Software Systems
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Custom software solutions for inventory management, reporting,
+                staff management, and more.
+              </p>
+              <ul class="text-gray-600 mb-6 space-y-2">
+                <li class="flex items-center">
+                  <i class="ri-check-line text-primary mr-2"></i>
+                  <span>Business process automation</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="ri-check-line text-primary mr-2"></i>
+                  <span>Data management & analytics</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="ri-check-line text-primary mr-2"></i>
+                  <span>Training & support</span>
+                </li>
+              </ul>
+              <a href="#" class="text-primary font-medium flex items-center">
+                Learn more
+                <i class="ri-arrow-right-line ml-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-12">
+          <button
+            onclick="openQuoteForm()"
+            class="bg-primary hover:bg-primary/90 text-white px-6 py-3 font-medium !rounded-button whitespace-nowrap"
+          >
+            Request a Quote
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Laptop Shop Section -->
+    <section id="laptops" class="py-20 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">Laptop Shop</h2>
+          <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Quality laptops from trusted brands at competitive prices. New and
+            refurbished options available.
+          </p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden border border-gray-100"
+          >
+            <div class="h-56 p-6 bg-gray-50 flex items-center justify-center">
+              <img
+                src="https://readdy.ai/api/search-image?query=HP%20EliteBook%20840%20G3%20laptop%20on%20clean%20white%20background%2C%20professional%20product%20photography%2C%20high%20resolution%2C%20detailed%2C%20studio%20lighting&width=500&height=350&seq=laptop1&orientation=landscape"
+                alt="HP EliteBook 840 G3"
+                class="max-h-full object-contain"
+              />
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between items-center mb-3">
+                <span
+                  class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded"
+                  >HP</span
+                >
+                <span
+                  class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded"
+                  >In Stock</span
+                >
+              </div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                HP EliteBook 840 G3
+              </h3>
+              <div class="text-gray-600 mb-4 space-y-1 text-sm">
+                <p>Intel Core i5, 8GB RAM, 256GB SSD</p>
+                <p>14" Full HD Display, Windows 10 Pro</p>
+                <p>Condition: Refurbished (Grade A)</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-xl font-bold text-gray-900">KSh 27,500</span>
+                <button
+                  class="bg-primary hover:bg-primary/90 text-white px-4 py-2 !rounded-button whitespace-nowrap"
+                >
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden border border-gray-100"
+          >
+            <div class="h-56 p-6 bg-gray-50 flex items-center justify-center">
+              <img
+                src="https://readdy.ai/api/search-image?query=Dell%20Latitude%207480%20laptop%20on%20clean%20white%20background%2C%20professional%20product%20photography%2C%20high%20resolution%2C%20detailed%2C%20studio%20lighting&width=500&height=350&seq=laptop2&orientation=landscape"
+                alt="Dell Latitude 7480"
+                class="max-h-full object-contain"
+              />
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between items-center mb-3">
+                <span
+                  class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded"
+                  >Dell</span
+                >
+                <span
+                  class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded"
+                  >In Stock</span
+                >
+              </div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                Dell Latitude 7480
+              </h3>
+              <div class="text-gray-600 mb-4 space-y-1 text-sm">
+                <p>Intel Core i7, 16GB RAM, 512GB SSD</p>
+                <p>14" Full HD Display, Windows 11 Pro</p>
+                <p>Condition: Refurbished (Grade A+)</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-xl font-bold text-gray-900">KSh 35,000</span>
+                <button
+                  class="bg-primary hover:bg-primary/90 text-white px-4 py-2 !rounded-button whitespace-nowrap"
+                >
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden border border-gray-100"
+          >
+            <div class="h-56 p-6 bg-gray-50 flex items-center justify-center">
+              <img
+                src="https://readdy.ai/api/search-image?query=Lenovo%20ThinkPad%20X1%20Carbon%20laptop%20on%20clean%20white%20background%2C%20professional%20product%20photography%2C%20high%20resolution%2C%20detailed%2C%20studio%20lighting&width=500&height=350&seq=laptop3&orientation=landscape"
+                alt="Lenovo ThinkPad X1 Carbon"
+                class="max-h-full object-contain"
+              />
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between items-center mb-3">
+                <span
+                  class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded"
+                  >Lenovo</span
+                >
+                <span
+                  class="bg-amber-100 text-amber-800 text-xs font-medium px-2.5 py-0.5 rounded"
+                  >Limited Stock</span
+                >
+              </div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                Lenovo ThinkPad X1 Carbon
+              </h3>
+              <div class="text-gray-600 mb-4 space-y-1 text-sm">
+                <p>Intel Core i7, 16GB RAM, 1TB SSD</p>
+                <p>14" 2K Display, Windows 11 Pro</p>
+                <p>Condition: New</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-xl font-bold text-gray-900">KSh 85,000</span>
+                <button
+                  class="bg-primary hover:bg-primary/90 text-white px-4 py-2 !rounded-button whitespace-nowrap"
+                >
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col items-center mt-12">
+          <div class="flex items-center gap-2 mb-6 text-gray-600">
+            <div class="w-6 h-6 flex items-center justify-center">
+              <i class="ri-truck-line"></i>
+            </div>
+            <span>Nationwide delivery</span>
+            <span class="mx-2">|</span>
+            <div class="w-6 h-6 flex items-center justify-center">
+              <i class="ri-shield-check-line"></i>
+            </div>
+            <span>Warranty included</span>
+          </div>
+          <button
+            class="bg-primary hover:bg-primary/90 text-white px-6 py-3 font-medium !rounded-button whitespace-nowrap"
+          >
+            View All Laptops
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Portfolio</h2>
+          <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Take a look at some of our recent projects and success stories.
+          </p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+            <div class="h-56 relative">
+              <img
+                src="https://readdy.ai/api/search-image?query=modern%20school%20website%20design%20mockup%20on%20laptop%20screen%2C%20educational%20website%20with%20blue%20and%20white%20color%20scheme%2C%20professional%2C%20clean%20layout&width=500&height=350&seq=portfolio1&orientation=landscape"
+                alt="School Website"
+                class="w-full h-full object-cover object-top"
+              />
+            </div>
+            <div class="p-6">
+              <span
+                class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded mb-3 inline-block"
+                >Website</span
+              >
+              <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                Nairobi Academy Website
+              </h3>
+              <p class="text-gray-600 mb-4">
+                A modern, responsive website for a prestigious school in
+                Nairobi, featuring virtual tours, online admissions, and an
+                integrated parent portal.
+              </p>
+              <a href="#" class="text-primary font-medium flex items-center">
+                View Project
+                <i class="ri-arrow-right-line ml-1"></i>
+              </a>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+            <div class="h-56 relative">
+              <img
+                src="https://readdy.ai/api/search-image?query=inventory%20management%20system%20dashboard%20UI%20design%2C%20clean%20interface%20with%20data%20visualization%2C%20professional%20software%20application%20screen&width=500&height=350&seq=portfolio2&orientation=landscape"
+                alt="SmartShop Inventory System"
+                class="w-full h-full object-cover object-top"
+              />
+            </div>
+            <div class="p-6">
+              <span
+                class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded mb-3 inline-block"
+                >Software</span
+              >
+              <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                Mombasa Traders Hub
+              </h3>
+              <p class="text-gray-600 mb-4">
+                A multi-store inventory and POS system for a major trading hub
+                in Mombasa, managing over 50 shops with real-time stock
+                synchronization.
+              </p>
+              <a href="#" class="text-primary font-medium flex items-center">
+                View Project
+                <i class="ri-arrow-right-line ml-1"></i>
+              </a>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+            <div class="h-56 relative">
+              <img
+                src="https://readdy.ai/api/search-image?query=educational%20mobile%20app%20UI%20design%20on%20smartphone%20screen%2C%20learning%20application%20with%20colorful%20interface%2C%20professional%20app%20design&width=500&height=350&seq=portfolio3&orientation=landscape"
+                alt="CBC Notes Android App"
+                class="w-full h-full object-cover object-top"
+              />
+            </div>
+            <div class="p-6">
+              <span
+                class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded mb-3 inline-block"
+                >Mobile App</span
+              >
+              <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                Eldoret Farmers Connect
+              </h3>
+              <p class="text-gray-600 mb-4">
+                A mobile platform connecting farmers in the North Rift region
+                with buyers, featuring real-time market prices, weather alerts,
+                and logistics tracking.
+              </p>
+              <a href="#" class="text-primary font-medium flex items-center">
+                View Project
+                <i class="ri-arrow-right-line ml-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-12">
+          <button
+            class="bg-primary hover:bg-primary/90 text-white px-6 py-3 font-medium !rounded-button whitespace-nowrap"
+          >
+            View All Projects
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">Contact Us</h2>
+          <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Have a question or need a quote? Get in touch with our team.
+          </p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-12">
+          <div>
+            <div class="bg-gray-50 p-8 rounded-lg h-full">
+              <h3 class="text-xl font-semibold text-gray-900 mb-6">
+                Contact Information
+              </h3>
+              <div class="space-y-6">
+                <div class="flex items-start">
+                  <div
+                    class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full mr-4"
+                  >
+                    <i class="ri-map-pin-line text-primary"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-1">
+                      Location
+                    </h4>
+                    <p class="text-gray-600">Kisumu, Kenya</p>
+                  </div>
+                </div>
+                <div class="flex items-start">
+                  <div
+                    class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full mr-4"
+                  >
+                    <i class="ri-phone-line text-primary"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-1">
+                      Phone
+                    </h4>
+                    <p class="text-gray-600">+254 793522500</p>
+                  </div>
+                </div>
+                <div class="flex items-start">
+                  <div
+                    class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full mr-4"
+                  >
+                    <i class="ri-mail-line text-primary"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-1">
+                      Email
+                    </h4>
+                    <p class="text-gray-600">mumotechhub@gmail.com</p>
+                  </div>
+                </div>
+                <div class="flex items-start">
+                  <div
+                    class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full mr-4"
+                  >
+                    <i class="ri-time-line text-primary"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-1">
+                      Business Hours
+                    </h4>
+                    <p class="text-gray-600">
+                      Monday - Friday: 8:00 AM - 6:00 PM
+                    </p>
+                    <p class="text-gray-600">Saturday: 9:00 AM - 1:00 PM</p>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-8">
+                <h4 class="text-lg font-medium text-gray-900 mb-4">
+                  Follow Us
+                </h4>
+                <div class="flex space-x-4">
+                  <a
+                    href="#"
+                    class="w-10 h-10 flex items-center justify-center bg-gray-100 hover:bg-primary/10 rounded-full text-gray-600 hover:text-primary transition-colors"
+                  >
+                    <i class="ri-facebook-fill"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="w-10 h-10 flex items-center justify-center bg-gray-100 hover:bg-primary/10 rounded-full text-gray-600 hover:text-primary transition-colors"
+                  >
+                    <i class="ri-instagram-line"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="w-10 h-10 flex items-center justify-center bg-gray-100 hover:bg-primary/10 rounded-full text-gray-600 hover:text-primary transition-colors"
+                  >
+                    <i class="ri-linkedin-fill"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="w-10 h-10 flex items-center justify-center bg-gray-100 hover:bg-primary/10 rounded-full text-gray-600 hover:text-primary transition-colors"
+                  >
+                    <i class="ri-twitter-x-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <form class="bg-gray-50 p-8 rounded-lg">
+              <h3 class="text-xl font-semibold text-gray-900 mb-6">
+                Send Us a Message
+              </h3>
+              <div class="grid grid-cols-2 gap-6 mb-6">
+                <div>
+                  <label
+                    for="name"
+                    class="block text-sm font-medium text-gray-700 mb-2"
+                    >Your Name</label
+                  >
+                  <input
+                    type="text"
+                    id="name"
+                    class="w-full px-4 py-2 border border-gray-300 rounded focus:border-primary"
+                    placeholder="John Doe"
+                  />
+                </div>
+                <div>
+                  <label
+                    for="email"
+                    class="block text-sm font-medium text-gray-700 mb-2"
+                    >Your Email</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    class="w-full px-4 py-2 border border-gray-300 rounded focus:border-primary"
+                    placeholder="john@example.com"
+                  />
+                </div>
+              </div>
+              <div class="mb-6">
+                <label
+                  for="subject"
+                  class="block text-sm font-medium text-gray-700 mb-2"
+                  >Subject</label
+                >
+                <input
+                  type="text"
+                  id="subject"
+                  class="w-full px-4 py-2 border border-gray-300 rounded focus:border-primary"
+                  placeholder="How can we help you?"
+                />
+              </div>
+              <div class="mb-6">
+                <label
+                  for="message"
+                  class="block text-sm font-medium text-gray-700 mb-2"
+                  >Message</label
+                >
+                <textarea
+                  id="message"
+                  rows="5"
+                  class="w-full px-4 py-2 border border-gray-300 rounded focus:border-primary"
+                  placeholder="Your message here..."
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="w-full bg-primary hover:bg-primary/90 text-white px-6 py-3 font-medium !rounded-button whitespace-nowrap"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+          <div>
+            <a href="#" class="text-2xl font-['Pacifico'] text-white mb-4 block"
+              >MumoTech Hub</a
+            >
+            <p class="text-gray-400 mb-6">
+              Providing smart digital solutions and trusted laptop sales in
+              Kisumu, Kenya.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="w-8 h-8 flex items-center justify-center bg-gray-800 hover:bg-primary rounded-full text-gray-400 hover:text-white transition-colors"
+              >
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a
+                href="#"
+                class="w-8 h-8 flex items-center justify-center bg-gray-800 hover:bg-primary rounded-full text-gray-400 hover:text-white transition-colors"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="#"
+                class="w-8 h-8 flex items-center justify-center bg-gray-800 hover:bg-primary rounded-full text-gray-400 hover:text-white transition-colors"
+              >
+                <i class="ri-linkedin-fill"></i>
+              </a>
+              <a
+                href="#"
+                class="w-8 h-8 flex items-center justify-center bg-gray-800 hover:bg-primary rounded-full text-gray-400 hover:text-white transition-colors"
+              >
+                <i class="ri-twitter-x-line"></i>
+              </a>
+            </div>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#laptops"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Laptop Shop</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Services</h4>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Coding Education</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Website Development</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Mobile App Development</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Software Systems</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Laptop Sales</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >IT Consultancy</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Newsletter</h4>
+            <p class="text-gray-400 mb-4">
+              Subscribe to our newsletter for updates and special offers.
+            </p>
+            <form>
+              <div class="flex">
+                <input
+                  type="email"
+                  placeholder="Your email"
+                  class="flex-1 px-4 py-2 rounded-l bg-gray-800 border-none text-white"
+                />
+                <button
+                  type="submit"
+                  class="bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-r whitespace-nowrap"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </form>
+            <div class="mt-6">
+              <h5 class="text-sm font-semibold mb-3">We Accept</h5>
+              <div class="flex space-x-3">
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <i class="ri-visa-fill ri-lg"></i>
+                </div>
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <i class="ri-mastercard-fill ri-lg"></i>
+                </div>
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <i class="ri-paypal-fill ri-lg"></i>
+                </div>
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <i class="ri-bank-card-fill ri-lg"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border-t border-gray-800 pt-8">
+          <div class="flex flex-col md:flex-row justify-between items-center">
+            <p class="text-gray-400 text-sm">
+              © 2025 MumoTech Hub. All rights reserved.
+            </p>
+            <p class="text-gray-400 text-sm mt-2 md:mt-0">
+              Powered by <span class="text-primary">MumoTech</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script id="quoteSystem">
+      function openQuoteForm() {
+        const modalHtml = `
+      <div id="quoteModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+      <div class="bg-white rounded-lg p-6 max-w-md w-full mx-4">
+      <div class="flex justify-between items-center mb-4">
+      <h3 class="text-xl font-semibold text-gray-900">Request a Quote</h3>
+      <button onclick="closeQuoteForm()" class="text-gray-500 hover:text-gray-700">
+      <i class="ri-close-line ri-lg"></i>
+      </button>
+      </div>
+      <form id="quoteForm" onsubmit="submitQuoteRequest(event)">
+      <div class="space-y-4">
+      <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+      <input type="text" id="quoteName" required class="w-full px-3 py-2 border border-gray-300 rounded focus:border-primary">
+      </div>
+      <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1">Your Email</label>
+      <input type="email" id="quoteEmail" required class="w-full px-3 py-2 border border-gray-300 rounded focus:border-primary">
+      </div>
+      <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1">Service Type</label>
+      <select id="quoteService" required class="w-full px-3 py-2 border border-gray-300 rounded focus:border-primary">
+      <option value="">Select a service</option>
+      <option value="Website Development">Website Development</option>
+      <option value="Mobile App">Mobile App Development</option>
+      <option value="Software System">Software System</option>
+      <option value="IT Consultancy">IT Consultancy</option>
+      </select>
+      </div>
+      <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1">Project Description</label>
+      <textarea id="quoteDescription" required rows="3" class="w-full px-3 py-2 border border-gray-300 rounded focus:border-primary" placeholder="Please briefly describe your project requirements"></textarea>
+      </div>
+      </div>
+      <div class="mt-6">
+      <button type="submit" class="w-full bg-primary hover:bg-primary/90 text-white px-4 py-2 !rounded-button whitespace-nowrap">
+      Submit Quote Request
+      </button>
+      </div>
+      </form>
+      </div>
+      </div>
+      `;
+        document.body.insertAdjacentHTML("beforeend", modalHtml);
+      }
+      function closeQuoteForm() {
+        const modal = document.getElementById("quoteModal");
+        if (modal) modal.remove();
+      }
+      function submitQuoteRequest(e) {
+        e.preventDefault();
+        const name = document.getElementById("quoteName").value;
+        const email = document.getElementById("quoteEmail").value;
+        const service = document.getElementById("quoteService").value;
+        const description = document.getElementById("quoteDescription").value;
+        const mailtoLink = `mailto:mumoshaddy71@gmail.com?subject=Quote Request - ${service}&body=Name: ${name}%0D%0AEmail: ${email}%0D%0AService: ${service}%0D%0AProject Description: ${description}`;
+        window.location.href = mailtoLink;
+        const confirmationModal = `
+      <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+      <div class="bg-white rounded-lg p-6 max-w-md w-full mx-4">
+      <div class="text-center">
+      <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+      <i class="ri-check-line ri-2x text-green-500"></i>
+      </div>
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">Quote Request Sent!</h3>
+      <p class="text-gray-600 mb-6">Thank you for your interest. We'll review your request and get back to you with a quote shortly.</p>
+      <button onclick="this.closest('div.fixed').remove()" class="bg-primary hover:bg-primary/90 text-white px-6 py-2 !rounded-button whitespace-nowrap">
+      Close
+      </button>
+      </div>
+      </div>
+      </div>
+      `;
+        closeQuoteForm();
+        document.body.insertAdjacentHTML("beforeend", confirmationModal);
+      }
+    </script>
+    <script id="mobileMenu">
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuButton = document.querySelector(".md\\:hidden button");
+        const nav = document.querySelector("nav");
+        menuButton.addEventListener("click", function () {
+          if (nav.classList.contains("hidden")) {
+            nav.classList.remove("hidden");
+            nav.classList.add(
+              "flex",
+              "flex-col",
+              "absolute",
+              "top-16",
+              "left-0",
+              "right-0",
+              "bg-white",
+              "shadow-md",
+              "p-4",
+              "space-y-4",
+              "z-50",
+            );
+          } else {
+            nav.classList.add("hidden");
+            nav.classList.remove(
+              "flex",
+              "flex-col",
+              "absolute",
+              "top-16",
+              "left-0",
+              "right-0",
+              "bg-white",
+              "shadow-md",
+              "p-4",
+              "space-y-4",
+              "z-50",
+            );
+          }
+        });
+      });
+    </script>
+    <script id="bookingSystem">
+      function openBookingForm() {
+        const today = new Date().toISOString().split("T")[0];
+        const modalHtml = `
+      <div id="bookingModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+      <div class="bg-white rounded-lg p-6 max-w-md w-full mx-4">
+      <div class="flex justify-between items-center mb-4">
+      <h3 class="text-xl font-semibold text-gray-900">Book Online Class</h3>
+      <button onclick="closeBookingForm()" class="text-gray-500 hover:text-gray-700">
+      <i class="ri-close-line ri-lg"></i>
+      </button>
+      </div>
+      <form id="bookingForm" onsubmit="submitBooking(event)">
+      <div class="space-y-4">
+      <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+      <input type="text" id="bookingName" required class="w-full px-3 py-2 border border-gray-300 rounded focus:border-primary">
+      </div>
+      <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1">Your Email</label>
+      <input type="email" id="bookingEmail" required class="w-full px-3 py-2 border border-gray-300 rounded focus:border-primary">
+      </div>
+      <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1">Preferred Start Date</label>
+      <input type="date" id="bookingDate" required min="${today}" class="w-full px-3 py-2 border border-gray-300 rounded focus:border-primary">
+      </div>
+      <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1">Course</label>
+      <select id="bookingCourse" required class="w-full px-3 py-2 border border-gray-300 rounded focus:border-primary">
+      <option value="Web Development">Web Development (HTML, CSS, JS)</option>
+      <option value="Python & SQL">Python & SQL for Backend</option>
+      <option value="C++ Game Development">C++ Game Development</option>
+      </select>
+      </div>
+      <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1">Additional Notes</label>
+      <textarea id="bookingNotes" rows="3" class="w-full px-3 py-2 border border-gray-300 rounded focus:border-primary"></textarea>
+      </div>
+      </div>
+      <div class="mt-6">
+      <button type="submit" class="w-full bg-primary hover:bg-primary/90 text-white px-4 py-2 !rounded-button whitespace-nowrap">
+      Book Now - KSh 1,200 per session
+      </button>
+      </div>
+      </form>
+      </div>
+      </div>
+      `;
+        document.body.insertAdjacentHTML("beforeend", modalHtml);
+      }
+      function closeBookingForm() {
+        const modal = document.getElementById("bookingModal");
+        if (modal) modal.remove();
+      }
+      function submitBooking(e) {
+        e.preventDefault();
+        const name = document.getElementById("bookingName").value;
+        const email = document.getElementById("bookingEmail").value;
+        const date = document.getElementById("bookingDate").value;
+        const course = document.getElementById("bookingCourse").value;
+        const notes = document.getElementById("bookingNotes").value;
+        const mailtoLink = `mailto:mumoshaddy71@gmail.com?subject=New Class Booking - ${course}&body=Name: ${name}%0D%0AEmail: ${email}%0D%0APreferred Start Date: ${date}%0D%0ACourse: ${course}%0D%0APrice: KSh 1,200 per session%0D%0AAdditional Notes: ${notes}`;
+        window.location.href = mailtoLink;
+        const confirmationModal = `
+      <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+      <div class="bg-white rounded-lg p-6 max-w-md w-full mx-4">
+      <div class="text-center">
+      <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+      <i class="ri-check-line ri-2x text-green-500"></i>
+      </div>
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">Booking Submitted!</h3>
+      <p class="text-gray-600 mb-6">Thank you for booking. We'll contact you shortly to confirm your class schedule.</p>
+      <button onclick="this.closest('div.fixed').remove()" class="bg-primary hover:bg-primary/90 text-white px-6 py-2 !rounded-button whitespace-nowrap">
+      Close
+      </button>
+      </div>
+      </div>
+      </div>
+      `;
+        closeBookingForm();
+        document.body.insertAdjacentHTML("beforeend", confirmationModal);
+      }
+      document.addEventListener("DOMContentLoaded", function () {
+        const form = document.querySelector("form");
+        if (form) {
+          form.addEventListener("submit", function (e) {
+            e.preventDefault();
+            const name = document.getElementById("name")?.value;
+            const email = document.getElementById("email")?.value;
+            const subject = document.getElementById("subject")?.value;
+            const message = document.getElementById("message")?.value;
+            if (!name || !email || !message) {
+              alert("Please fill in all required fields");
+              return;
+            }
+            alert("Thank you for your message! We will get back to you soon.");
+            form.reset();
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
